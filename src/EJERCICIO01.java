@@ -11,12 +11,11 @@ public class EJERCICIO01 {
         
         System.out.println("INGRESE NUMERO A MULTIPLICAR");
         num=input.nextInt();        
-        System.out.println("INGRESE NUMERO A MULPLICADOR");
+        System.out.println("INGRESE NUMERO MULPLICADOR");
         num2=input.nextInt();
         for(int x=num2;num2>0;num2--)
         {
-            producto=producto+num;
-        
+            producto=producto+num;        
         }
         System.out.println("EL PRODUCTO ES: "+producto);
     }
